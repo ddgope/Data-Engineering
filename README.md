@@ -8,8 +8,8 @@
     
     * **Problem Statement** : 
        Sparkify Analytics team is particularly interested in understanding what songs users are listening to.
-* **Design**
-    **Schema Design** : 
+* **Design**    
+     * **Schema Design** :
     I have built the model on a star schema optimized for queries on song play analysis. I have defined one fact table (songplays)  and dimension tables (users,songs, artists  and times). Below is the star schema. ![Sparkify Star Schema](https://github.com/ddgope/Data-Modeling-with-Postgres/blob/master/StarModel.JPG)
 * **ETL Design**
     * **Create Tables** : 
